@@ -1,0 +1,15 @@
+{
+ "name": "Anti-Social",
+ "version": "1.0",
+ "description": "Block all outbound connections to social media",
+ "permissions": ["webRequest", "webRequestBLocking", "<all_urls>"],
+ "background": {
+  "scripts": ["app.js"]
+ },
+ "icons": {
+  "16": "icons/logo16.png",
+  "48": "icons/logo48.png",
+  "128": "icons/logo128.png"
+ },
+ "manifest_version": 2
+}
